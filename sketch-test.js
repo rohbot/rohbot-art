@@ -19,8 +19,12 @@ let R_RATIO = 0.975961064797;
 
 let centre;
 
-let ix = 2.5;
-let iy = 2.5;
+let ix = 6;
+let iy = 2.3;
+
+let speed = -1.4;
+
+let showDot = false;
 
 function setup() {
  createCanvas(windowWidth,windowHeight);
@@ -75,13 +79,18 @@ function drawSq(startX,startY, theta, rRatio, r){
 
 function draw() {
   background(50);
-  var step = radians(frameCount % 360);
+
+  
+  var step = radians((frameCount % (360/speed)) * speed);
   
   var xStep = width / ix * Math.cos(step) + width / 2;
   var yStep = height / iy * Math.sin(step) + height /2;
   //console.log(step, xStep,yStep );
-  ellipse(xStep, yStep, 5, 5);
-
+  if(showDot){
+    ellipse(xStep, yStep, 5, 5);
+  
+  }
+  
   var i = int(map(xStep, 0, width, 0, 149));
   var j = int(map(yStep, 0, height, 0, 149));
 
@@ -95,17 +104,33 @@ function draw() {
 
 }
 
+function keyPressed(){
+  //console.log(keyCode);
+  if(keyCode == 38){
+    speed += 0.2;
+  }
+  if(keyCode == 40){
+    speed -= 0.2;
+  }
+  if(keyCode == 32){
+    showDot = !showDot;
+  }
+  console.log(speed,showDot);
+}
+
 function mouseMoved(){
 
  //background(50);
+ 
+ //speed = map(centre.dist(createVector(mouseX, mouseY)), 0, width/2, 0.5, 10);
+  //speed = map(centre.dist(createVector(mouseX, mouseY)), 0, width/2, 0.5, 10);
   
   ix = map(mouseX, 0, width, 10, 2);
   iy = map(mouseY, 0, height, 10, 2);
-  console.log("ix", ix, "iy", iy);
+  console.log("ix", ix, "iy", iy, speed);
   //var theta = R_DATA[i].theta;
   //var ratio = R_DATA[j].ratio;
   
- // drawSq(x, y, theta, ratio, START_R);
 
   
  // var data = R_DATA[i];

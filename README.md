@@ -11,7 +11,6 @@ coming soon
 rohbot is an art project of coded motion and animation. rohbot art was created by [Rohan Ahmad](https://rohanoahmad.me/), a creative coder and electronics hacker from Australia who now lives in Malaysia.
 * [GitHub](https://github.com/rohbot)
 * [Instagram](https://www.instagram.com/rohbotboy/)
-* [Twitter](https://twitter.com/rohbot)
 
 
 ### License, share, learn

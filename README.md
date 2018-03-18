@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# rohbot art
+  
+Follow on [Instagram](https://www.instagram.com/rohbotboy/)
 
-You can use the [editor on GitHub](https://github.com/rohbot/rohbot.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Latest work
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+coming soon
 
-### Markdown
+## About rohbot art
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+rohbot is an art project of coded motion and animation. rohbot art was created by [Rohan Ahmad](https://rohanoahmad.me/), a creative coder and electronics hacker from Australia who now lives in Malaysia.
+* [GitHub](https://github.com/rohbot)
+* [Instagram](https://www.instagram.com/rohbotboy/)
+* [Twitter](https://twitter.com/rohbot)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### License, share, learn
 
-- Bulleted
-- List
+Feel free to edit, modify and learn from this [code](https://github.com/rohbot/rohbot.github.io) 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rohbot/rohbot.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This website is based on [code](https://github.com/owenmcateer/Motus-Art) from [owenmcateer/Motus-Art](https://github.com/) project

@@ -36,7 +36,7 @@ function dr(){
 	//console.log(phi);
   for (let i = 0; i < numP; i++) {
     //console.log(phi * i);
-    let x = R * cos(phi * i); + (width / 2);
+    let x = R * cos(phi * i) + (width / 2);
     let y = R * sin(phi * i)  + (height / 2);
     points[i] = createVector(x, y);
      //console.log(points[i]);

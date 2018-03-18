@@ -17,7 +17,21 @@ function setup(){
     dr();
 }   
 
+function drawTouches(){
+    for (var i = 0; i < touches.length; i++) {
+        ellipse(touches[i].x, touches[i].y,
+         10+sin(i+frameCount*0.1)*5,
+         10+sin(i+frameCount*0.1)*5);
+
+    }
+
+}
+
+
 function draw(){
+  if(touches.length > 0){
+    drawTouches();
+  }
 
 }
 
@@ -33,7 +47,7 @@ function dr(){
     //console.log(phi);
   for (let i = 0; i < numP; i++) {
     //console.log(phi * i);
-    let x = R * cos(phi * i) + (width / 2);
+    let x = R * cos(phi * i)  + (width / 2);
     let y = R * sin(phi * i)  + (height / 2);
     points[i] = createVector(x, y);
      //console.log(points[i]);

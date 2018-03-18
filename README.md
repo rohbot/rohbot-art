@@ -25,4 +25,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 This website is based on [code](https://github.com/owenmcateer/Motus-Art) from [owenmcateer/Motus-Art](https://github.com/) project
 
 [stringart]: https://rohbot.github.io/rohbot.github.io/projects/stringart.html
-[stringartcode]: https://github.com/rohbot/Motus-Art/blob/master/src/week_01/main.js
+[stringartcode]: https://github.com/rohbot/rohbot.github.io/blob/master/src/stringart/sketch.js

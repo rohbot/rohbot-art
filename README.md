@@ -1,6 +1,9 @@
 
 ## Latest work
 
+[**Noisy_Lines**][noisylines] [*(code)*][noisylinescode]  
+[![Noisy_Lines](./assets/img/preview/noisylines.png)][noisylines]
+
 
 [**String Art**][stringart] [*(code)*][stringartcode]  
 [![String Art](./assets/img/preview/stringart.png)][stringart]
@@ -12,7 +15,7 @@ rohbot is an art project of coded motion and animation. rohbot art was created b
 * [GitHub](https://github.com/rohbot)
 * [Instagram](https://www.instagram.com/rohbotboy/)
 
-# rohbot art
+
   
 Follow on [Instagram](https://www.instagram.com/rohbotboy/)
 
@@ -26,3 +29,8 @@ This website is based on [code](https://github.com/owenmcateer/Motus-Art) from [
 
 [stringart]: https://rohbot.github.io/rohbot.github.io/projects/stringart.html
 [stringartcode]: https://github.com/rohbot/rohbot.github.io/blob/master/src/stringart/sketch.js
+
+[noisylines]: https://rohbot.github.io/noisy-lines
+[noisylinescode]: https://github.com/rohbot/noisy-lines/sketch.js
+
+
